@@ -1,0 +1,53 @@
+div#static{ 
+ position: static;
+border: 3px solid darkblue;
+width: 250px;
+height: 250px;
+padding: 20px;
+
+}
+
+div#relative{
+    position: relative;
+    border: 3px solid darkblue;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    left: 250px;
+    height:200px;
+    top: 250px;
+}
+
+
+div#fixed{
+    position: fixed;
+    right: 200px;
+    border: 3px solid darkblue;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    height:200px;
+    top: 250px;
+}
+#h1fixed{
+ 
+    position: fixed;
+    right: 300px;
+    top: 30px;
+}
+ div#parent{ 
+    position: relative;
+    width: 250px;
+    height:250px;
+    border:3px solid darkblue;
+ }
+
+ div#absoulute{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 240, 250);
+    right: 90px;
+    top: 70px;
+    color: aliceblue;
+ }
